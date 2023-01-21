@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-// const plugin = require('tailwindcss/plugin')
+const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   mode: 'jit',
@@ -10,7 +10,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-
+      
       textShadow:
       {
         default:'0px 2px 8px var(--tw-shadow-color)',
@@ -28,20 +28,20 @@ module.exports = {
       }
     },
   },
-  // plugins: [
-  //   require("tailwindcss-scrollbar"),
-  //   require("tailwindcss-textshadow"),
+  plugins: [
+    require("tailwindcss-scrollbar"),
+    require("tailwindcss-textshadow"),
 
-  //   plugin(function ({matchUtilities, theme})
-  //   {
-  //     matchUtilities(
-  //       {
-  //         'text-shadow' : (value) => ({
-  //           textShadow : value,
-  //         }),
-  //       },
-  //       { values: theme('textShadow')}
-  //     )
-  //   }),
-  // ],
+    plugin(function ({matchUtilities, theme})
+    {
+      matchUtilities(
+        {
+          'text-shadow' : (value) => ({
+            textShadow : value,
+          }),
+        },
+        { values: theme('textShadow')}
+      )
+    }),
+  ],
 }

@@ -6,3 +6,6 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Saved model
+inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
