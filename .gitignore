@@ -1,0 +1,14 @@
+# Ignore .vscode directory
+.vscode/
+
+# Ignore .idea directory
+.idea/
+
+# Ignore .ipynb_checkpoints directory
+.ipynb_checkpoints/
+
+# Ignore .conda directory
+.conda/
+
+# ignore web folder
+web/
