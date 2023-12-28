@@ -27,6 +27,7 @@ dependencies:
   - click=8.1.7=py39h06a4308_0
   - cryptography=41.0.3=py39h130f0dd_0
   - cycler=0.11.0=pyhd3eb1b0_0
+  - cython=0.29.28=py39h295c915_0
   - dbus=1.13.18=hb2f20db_0
   - expat=2.4.4=h295c915_0
   - flatbuffers=2.0.0=h2531618_0
