@@ -33,13 +33,15 @@ conda env create -f environment.yml
 conda activate <env name>
 ```
 
-I also created an automation script called `autoconf.py`, such that everytime you install a new package, you can run the script to auto update the `environment.yml`. Note that this script is only for conda envs, I'll be adding a pip variant soon.
+I also created an automation script called `autoconf.py`, such that everytime you install a new package or remove an existing package, you can run the script to auto update the `environment.yml`. Note that this script is only for conda envs, I'll be adding a pip variant soon.
 
 The -y flag is set to auto, hence to change it, edit `autoconf.py`
 
 ```bash
-python autoconf.py <package>
+python autoconf.py <command> <package>
 ```
+
+Commands: `install` or `remove`
 
 ### Using Docker
 
@@ -47,7 +49,7 @@ python autoconf.py <package>
 
 ## Usage
 
-The python file can be run normally from any editor. You can also make use of the .ipynb file by running it in a Google Colab or Kaggle instance.
+The python file can be run normally from any editor that supports version 3. You can also make use of the .ipynb file by running it in a Google Colab or Kaggle instance.
 
 
 
