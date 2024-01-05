@@ -1,4 +1,4 @@
-name: tf
+name: Gliese_22
 channels:
   - defaults
 dependencies:
@@ -64,12 +64,14 @@ dependencies:
   - libgcc-ng=9.1.0=hdf63c60_0
   - libgfortran-ng=7.3.0=hdf63c60_0
   - libgomp=11.2.0=h1234567_1
+  - libidn2=2.3.2=h7f8727e_0
   - libnghttp2=1.46.0=hce63b2e_0
   - libpng=1.6.37=hbc83047_0
   - libprotobuf=3.14.0=h8c45485_0
   - libssh2=1.10.0=h8f2d780_0
   - libstdcxx-ng=9.1.0=hdf63c60_0
   - libtiff=4.2.0=h2818925_1
+  - libunistring=0.9.10=h27cfd23_0
   - libuuid=1.0.3=h7f8727e_2
   - libwebp=1.2.2=h55f646e_0
   - libwebp-base=1.2.2=h7f8727e_0
@@ -138,6 +140,7 @@ dependencies:
   - tzdata=2023c=h04d1e81_0
   - urllib3=1.26.16=py39h06a4308_0
   - werkzeug=2.2.3=py39h06a4308_0
+  - wget=1.21.3=h0b77cf5_0
   - wheel=0.35.1=pyhd3eb1b0_0
   - wrapt=1.13.3=py39h7f8727e_2
   - xz=5.2.5=h7f8727e_1
@@ -145,5 +148,4 @@ dependencies:
   - zipp=3.11.0=py39h06a4308_0
   - zlib=1.2.12=h7f8727e_2
   - zstd=1.5.2=ha4553b6_0
-prefix: /root/anaconda3/envs/tf
 
