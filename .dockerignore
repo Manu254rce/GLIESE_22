@@ -1,0 +1,9 @@
+.conda/
+
+.idea/
+
+.vscode/
+
+.ipynb_checkpoints/
+
+web/

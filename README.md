@@ -45,7 +45,12 @@ Commands: `install` or `remove`
 
 ### Using Docker
 
-*** under development ***
+```bash
+docker build -t gliese_22:tag .
+
+docker run -it gliese_22:tag
+```
+
 
 ## Usage
 
