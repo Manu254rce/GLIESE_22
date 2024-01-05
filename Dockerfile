@@ -4,11 +4,13 @@ WORKDIR /app
 
 ADD . /app
 
+RUN apt-get update && apt-get install -y xvfb libgl1-mesa-glx
+
 RUN conda update -n base -c defaults conda
 
 RUN conda env create -f environment.yml 
 
 RUN conda clean -a -y
 
-ENTRYPOINT [ "conda", "run", "-n", "Gliese_22", "python", "hello.py" ]
+CMD xvfb run -s "-screen 0 1400x900x24" conda run -n Gliese_22 python hello.py
 
