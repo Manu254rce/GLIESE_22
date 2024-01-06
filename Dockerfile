@@ -4,8 +4,6 @@ WORKDIR /app
 
 ADD . /app
 
-RUN apt-get update && apt-get install -y xvfb libgl1-mesa-glx
-
 RUN conda update -n base -c defaults conda
 
 RUN conda env create -f environment.yml 
