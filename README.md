@@ -10,6 +10,8 @@ and Earth Science with relation to Physics and Applied Math.
 
 ## Basic Setup
 
+addition of pip will be added later
+
 ### Using Conda
 
 1. Clone this repository into your local machine:
