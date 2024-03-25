@@ -1,3 +1,5 @@
+// This file sets up the containerized environment for our code via Docker
+
 FROM continuumio/anaconda3:latest
 
 WORKDIR /app
